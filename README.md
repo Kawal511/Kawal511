@@ -14,3 +14,4 @@
 [![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=flat&logo=codechef&logoColor=white)](https://www.codechef.com/users/kawaljeet05)
 [![Codeforces](https://img.shields.io/badge/Codeforces-1f8acb?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Kawaljeet05)
 
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Kawal511&theme=gruvbox&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
