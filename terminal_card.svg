@@ -1,0 +1,126 @@
+<svg width="620" height="320" viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #0d0d1a; rx: 12; }
+      .border { fill: none; stroke: #7c3aed; stroke-width: 2; rx: 12; }
+      .title-bar { fill: #1a1a2e; }
+      .dot-r { fill: #ff5f57; }
+      .dot-y { fill: #febc2e; }
+      .dot-g { fill: #28c840; }
+      .prompt { fill: #a78bfa; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 13px; }
+      .label { fill: #6d6d8a; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 12px; }
+      .value { fill: #e2e8f0; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 12px; }
+      .accent { fill: #a78bfa; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 12px; }
+      .name { fill: #ffffff; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 15px; font-weight: bold; }
+      .divider { stroke: #2d2d4e; stroke-width: 1; }
+      .cursor {
+        fill: #a78bfa;
+        animation: blink 1s step-end infinite;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .line1 { animation: fadeIn 0.4s ease forwards; opacity: 0; animation-delay: 0.2s; }
+      .line2 { animation: fadeIn 0.4s ease forwards; opacity: 0; animation-delay: 0.5s; }
+      .line3 { animation: fadeIn 0.4s ease forwards; opacity: 0; animation-delay: 0.8s; }
+      .line4 { animation: fadeIn 0.4s ease forwards; opacity: 0; animation-delay: 1.1s; }
+      .line5 { animation: fadeIn 0.4s ease forwards; opacity: 0; animation-delay: 1.4s; }
+      .line6 { animation: fadeIn 0.4s ease forwards; opacity: 0; animation-delay: 1.7s; }
+      .line7 { animation: fadeIn 0.4s ease forwards; opacity: 0; animation-delay: 2.0s; }
+      .line8 { animation: fadeIn 0.4s ease forwards; opacity: 0; animation-delay: 2.3s; }
+      .line9 { animation: fadeIn 0.4s ease forwards; opacity: 0; animation-delay: 2.6s; }
+      .line10 { animation: fadeIn 0.4s ease forwards; opacity: 0; animation-delay: 2.9s; }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateX(-8px); }
+        to   { opacity: 1; transform: translateX(0); }
+      }
+      .glow {
+        animation: glowPulse 3s ease-in-out infinite;
+      }
+      @keyframes glowPulse {
+        0%, 100% { stroke: #7c3aed; filter: drop-shadow(0 0 4px #7c3aed); }
+        50%       { stroke: #a78bfa; filter: drop-shadow(0 0 10px #a78bfa); }
+      }
+    </style>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="620" height="320" rx="12" fill="#0d0d1a"/>
+
+  <!-- Glowing border -->
+  <rect width="618" height="318" x="1" y="1" rx="12" fill="none" stroke="#7c3aed" stroke-width="1.5" class="glow"/>
+
+  <!-- Title bar -->
+  <rect width="620" height="36" rx="12" fill="#13132b"/>
+  <rect y="24" width="620" height="12" fill="#13132b"/>
+  <rect y="36" width="620" height="1" fill="#2d2d4e"/>
+
+  <!-- Traffic dots -->
+  <circle cx="22" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="18" r="6" fill="#28c840"/>
+
+  <!-- Terminal title -->
+  <text x="310" y="23" text-anchor="middle" fill="#6d6d8a" font-family="JetBrains Mono, Courier New, monospace" font-size="11">kawaljeet@djsce ~ profile.sh</text>
+
+  <!-- Prompt line -->
+  <text x="20" y="66" class="prompt line1">❯ <tspan fill="#28c840">cat</tspan> <tspan fill="#e2e8f0">profile.json</tspan></text>
+
+  <!-- Name -->
+  <text x="20" y="92" class="line2">
+    <tspan class="accent">name</tspan><tspan class="label">      →  </tspan><tspan class="name">Kawaljeet Singh Bharaj</tspan>
+  </text>
+
+  <!-- Location -->
+  <text x="20" y="114" class="line3">
+    <tspan class="accent">location</tspan><tspan class="label">  →  </tspan><tspan class="value">📍 Ambarnath, Mumbai, Maharashtra</tspan>
+  </text>
+
+  <!-- Education -->
+  <text x="20" y="136" class="line4">
+    <tspan class="accent">education</tspan><tspan class="label"> →  </tspan><tspan class="value">🎓 B.Tech AI &amp; DS @ DJSCE</tspan>
+  </text>
+
+  <!-- CGPA -->
+  <text x="20" y="158" class="line5">
+    <tspan class="accent">cgpa</tspan><tspan class="label">      →  </tspan><tspan fill="#facc15" font-family="JetBrains Mono, Courier New, monospace" font-size="12px">★ 9.69 / 10</tspan><tspan class="label" font-family="JetBrains Mono, Courier New, monospace" font-size="12px">  (Till 3rd Sem)</tspan>
+  </text>
+
+  <!-- Role -->
+  <text x="20" y="180" class="line6">
+    <tspan class="accent">role</tspan><tspan class="label">      →  </tspan><tspan class="value">🤝 AI Mentee @ DJS InfoMatrix</tspan>
+  </text>
+
+  <!-- Divider line -->
+  <line x1="20" y1="194" x2="600" y2="194" stroke="#2d2d4e" stroke-width="1" class="line7"/>
+
+  <!-- Focus -->
+  <text x="20" y="214" class="line7">
+    <tspan class="accent">focus</tspan><tspan class="label">     →  </tspan><tspan class="value">🔭 Agentic AI · LangGraph · n8n</tspan>
+  </text>
+
+  <!-- Obsession -->
+  <text x="20" y="236" class="line8">
+    <tspan class="accent">obsessed</tspan><tspan class="label">  →  </tspan><tspan class="value">🛠️  RAG Pipelines · AI Agents · LLMs</tspan>
+  </text>
+
+  <!-- Mode -->
+  <text x="20" y="258" class="line9">
+    <tspan class="accent">mode</tspan><tspan class="label">      →  </tspan><tspan fill="#f472b6" font-family="JetBrains Mono, Courier New, monospace" font-size="12px">🏆 Always Hackathon-ready</tspan>
+  </text>
+
+  <!-- Mail -->
+  <text x="20" y="280" class="line10">
+    <tspan class="accent">contact</tspan><tspan class="label">   →  </tspan><tspan fill="#60a5fa" font-family="JetBrains Mono, Courier New, monospace" font-size="12px">📬 kawaljeetsinghbharaj.jsb@gmail.com</tspan>
+  </text>
+
+  <!-- Cursor -->
+  <text x="20" y="302" font-family="JetBrains Mono, Courier New, monospace" font-size="13px">
+    <tspan fill="#a78bfa">❯ </tspan><tspan class="cursor" font-size="14px">▋</tspan>
+  </text>
+</svg>
