@@ -1,0 +1,119 @@
+<svg width="100%" height="80" viewBox="0 0 1200 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .beam {
+        animation: colorShift 4s ease-in-out infinite;
+      }
+      .beam2 {
+        animation: colorShift 4s ease-in-out infinite;
+        animation-delay: -2s;
+      }
+      @keyframes colorShift {
+        0%   { stop-color: #7c3aed; }
+        25%  { stop-color: #a855f7; }
+        50%  { stop-color: #06b6d4; }
+        75%  { stop-color: #8b5cf6; }
+        100% { stop-color: #7c3aed; }
+      }
+      .beam-mid {
+        animation: colorShiftMid 4s ease-in-out infinite;
+      }
+      @keyframes colorShiftMid {
+        0%   { stop-color: #c084fc; }
+        25%  { stop-color: #38bdf8; }
+        50%  { stop-color: #e879f9; }
+        75%  { stop-color: #818cf8; }
+        100% { stop-color: #c084fc; }
+      }
+      .glow-bar {
+        animation: glowPulse 4s ease-in-out infinite;
+      }
+      @keyframes glowPulse {
+        0%,100% { filter: drop-shadow(0 0 6px #7c3aed) drop-shadow(0 0 18px #7c3aed); opacity: 0.9; }
+        25%      { filter: drop-shadow(0 0 8px #a855f7) drop-shadow(0 0 24px #a855f7); opacity: 1; }
+        50%      { filter: drop-shadow(0 0 10px #06b6d4) drop-shadow(0 0 30px #06b6d4); opacity: 1; }
+        75%      { filter: drop-shadow(0 0 8px #8b5cf6) drop-shadow(0 0 22px #8b5cf6); opacity: 0.95; }
+      }
+      .shape-morph {
+        animation: morphPath 6s ease-in-out infinite;
+      }
+      @keyframes morphPath {
+        0%   { d: path("M0,40 Q300,10 600,40 Q900,70 1200,40 L1200,55 Q900,85 600,55 Q300,25 0,55 Z"); }
+        33%  { d: path("M0,35 Q200,60 600,35 Q1000,10 1200,38 L1200,53 Q1000,25 600,50 Q200,75 0,50 Z"); }
+        66%  { d: path("M0,42 Q400,20 600,42 Q800,65 1200,36 L1200,51 Q800,80 600,57 Q400,35 0,57 Z"); }
+        100% { d: path("M0,40 Q300,10 600,40 Q900,70 1200,40 L1200,55 Q900,85 600,55 Q300,25 0,55 Z"); }
+      }
+    </style>
+
+    <!-- Gradient 1: left to center -->
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="20%" class="beam">
+        <animate attributeName="stop-color"
+          values="#7c3aed;#a855f7;#06b6d4;#8b5cf6;#7c3aed"
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" class="beam-mid">
+        <animate attributeName="stop-color"
+          values="#c084fc;#38bdf8;#e879f9;#818cf8;#c084fc"
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="80%" class="beam2">
+        <animate attributeName="stop-color"
+          values="#7c3aed;#06b6d4;#a855f7;#7c3aed;#7c3aed"
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+
+    <!-- Soft glow blur -->
+    <filter id="softGlow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="hardGlow" x="-20%" y="-200%" width="140%" height="500%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background transparent -->
+  <rect width="1200" height="80" fill="transparent"/>
+
+  <!-- Outer glow layer (wide, soft) -->
+  <path filter="url(#hardGlow)" fill="url(#grad1)" opacity="0.4">
+    <animate attributeName="d"
+      values="
+        M0,35 Q300,5 600,35 Q900,65 1200,35 L1200,45 Q900,75 600,45 Q300,15 0,45 Z;
+        M0,30 Q200,55 600,30 Q1000,5 1200,33 L1200,43 Q1000,15 600,40 Q200,65 0,40 Z;
+        M0,37 Q400,15 600,37 Q800,60 1200,31 L1200,41 Q800,70 600,47 Q400,25 0,47 Z;
+        M0,35 Q300,5 600,35 Q900,65 1200,35 L1200,45 Q900,75 600,45 Q300,15 0,45 Z"
+      dur="6s" repeatCount="indefinite" calcMode="spline"
+      keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"/>
+  </path>
+
+  <!-- Mid glow layer -->
+  <path filter="url(#softGlow)" fill="url(#grad1)" opacity="0.7">
+    <animate attributeName="d"
+      values="
+        M0,37 Q300,12 600,37 Q900,62 1200,37 L1200,43 Q900,68 600,43 Q300,18 0,43 Z;
+        M0,32 Q200,57 600,32 Q1000,7 1200,35 L1200,41 Q1000,17 600,38 Q200,63 0,38 Z;
+        M0,39 Q400,17 600,39 Q800,62 1200,33 L1200,39 Q800,65 600,45 Q400,23 0,45 Z;
+        M0,37 Q300,12 600,37 Q900,62 1200,37 L1200,43 Q900,68 600,43 Q300,18 0,43 Z"
+      dur="6s" repeatCount="indefinite" calcMode="spline"
+      keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"/>
+  </path>
+
+  <!-- Core beam (sharp, thin) -->
+  <path fill="url(#grad1)" opacity="1">
+    <animate attributeName="d"
+      values="
+        M0,39 Q300,14 600,39 Q900,64 1200,39 L1200,41 Q900,66 600,41 Q300,16 0,41 Z;
+        M0,34 Q200,59 600,34 Q1000,9 1200,37 L1200,39 Q1000,11 600,36 Q200,61 0,36 Z;
+        M0,41 Q400,19 600,41 Q800,64 1200,35 L1200,37 Q800,62 600,43 Q400,21 0,43 Z;
+        M0,39 Q300,14 600,39 Q900,64 1200,39 L1200,41 Q900,66 600,41 Q300,16 0,41 Z"
+      dur="6s" repeatCount="indefinite" calcMode="spline"
+      keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"/>
+  </path>
+
+</svg>
