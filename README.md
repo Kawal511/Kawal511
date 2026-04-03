@@ -220,17 +220,6 @@ Quant trading with ML model training, strategy backtesting, Gemini-powered insig
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<p>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Kawal511&theme=midnight-purple&hide_border=true&background=0D0D1A&ring=A78BFA&fire=a855f7&currStreakLabel=A78BFA" />
-</p>
-
-</div>
-
----
 ## 💼 Experience
 
 <div align="center">
