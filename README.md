@@ -70,6 +70,7 @@
 | 🥈 2nd Prize | CodeForge 2026 Hackathon | NMIMS MPSTME |
 | 🥈 2nd Place | Datazen Case Study Competition | Somaiya |
 | 🥈 2nd Place | Artemis UI/UX Hackathon | KJSCE |
+| GenAI Domain Winner | Datahack 4.0 | DJSCE |
 
 <br/>
 
