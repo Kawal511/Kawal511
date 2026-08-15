@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Kawaljeet%20Singh%20Bharaj&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=45&desc=AI%20Engineer%20%7C%20Frontend%20Developer%20%7C%20ML%20Researcher%20%7C%205x%20Hackathon%20Winner&descAlignY=65&descSize=17"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Kawaljeet%20Singh%20Bharaj&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=45&desc=AI%20Engineer%20%7C%20Frontend%20Developer%20%7C%20ML%20Researcher%20%7C%206x%20Hackathon%20Winner&descAlignY=65&descSize=17"/>
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&multiline=false&repeat=true&width=680&lines=Building+LLM-Powered+AI+Systems;RAG+Pipelines+%7C+AI+Agents+%7C+Agentic+Workflows;Deep+Learning+%7C+NLP+%7C+Computer+Vision;Turning+Research+Papers+into+Working+Products+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
