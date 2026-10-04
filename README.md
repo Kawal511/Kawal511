@@ -26,7 +26,7 @@
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400"/>
 </div>
 
-## 🧠 Who Am I
+## Who Am I
 <table>
 <tr>
 <td width="55%">
@@ -40,12 +40,12 @@
 
 <br clear="right"/>
 
-### 🔥 Currently
+### Currently
 
-- 🤖 Exploring **Agentic AI workflows** with LangGraph & n8n automation pipelines
-- 🏅 AI Mentee at **DJS InfoMatrix** building production-grade AI systems
-- 🎯 Competing in hackathons across **AI, ML, Data Science & UI/UX** domains
-- 🧪 Researching **multi-modal deep learning** and **RAG pipeline architectures**
+- Exploring **MLOps** with LangGraph & n8n automation pipelines
+- AI and ML Menter at **DJS InfoMatrix** building production-grade AI systems
+- Competing in hackathons across **AI, ML, Data Science & UI/UX** domains
+- Researching **multi-modal deep learning** and **RAG pipeline architectures**
 
 <br/>
 
@@ -55,7 +55,7 @@
 
 ---
 
-## 🏆 Achievements
+## Achievements
 
 <div align="center">
 
@@ -74,7 +74,7 @@
 
 <br/>
 
-### 🎓 Education
+### Education
 
 | Degree | Institution | Score |
 |---|---|---|
@@ -85,7 +85,7 @@
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 <div align="center">
 
@@ -93,7 +93,7 @@
 <tr>
 <td width="50%" valign="top">
 
-### ⚖️ NyayaZephyr
+### NyayaZephyr
 **AI Legal Intelligence Platform**
 
 ![LLM](https://img.shields.io/badge/LLM-RAG_Pipeline-7c3aed?style=flat-square)
@@ -105,7 +105,7 @@ Multi-tenant AI platform for legal research & case management. Context-aware doc
 </td>
 <td width="50%" valign="top">
 
-### 🩺 Multi-Modal Disease Prediction
+### Multi-Modal Disease Prediction
 **Medical Deep Learning System**
 
 ![HRNet](https://img.shields.io/badge/HRNet+DenseNet-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -119,7 +119,7 @@ Combines HRNet, DenseNet & XGBoost for image + metadata fusion. Feature-level en
 <tr>
 <td width="50%" valign="top">
 
-### 📚 Kwest
+### Kwest
 **AI Adaptive Learning Platform**
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-4A90D9?style=flat-square)
@@ -131,7 +131,7 @@ Auto-generates flashcards, quizzes & summaries from study material. Proposition-
 </td>
 <td width="50%" valign="top">
 
-### 📈 VEDAQ
+### VEDAQ
 **AI Quantitative Trading Platform**
 
 ![Agentic System](https://img.shields.io/badge/Agentic-System-4285F4?style=flat-square&logo=google)
@@ -154,7 +154,7 @@ Quant trading with ML model training, strategy backtesting, Gemini-powered insig
 
 ---
 
-## 🛠️ Tech Arsenal
+## Tech Arsenal
 
 <div align="center">
 
@@ -222,19 +222,20 @@ Quant trading with ML model training, strategy backtesting, Gemini-powered insig
 
 ---
 
-## 💼 Experience
+## Experience
 
 <div align="center">
 
-| 🏢 Organization | 💻 Role | 📅 Duration |
+| Organization | Role | Duration |
 |:---:|:---:|:---:|
-| **DJS InfoMatrix** | AI Mentee | Aug 2025 – Present |
+| **DJS InfoMatrix** | AI Mentee | Aug 2025 – Aug 2026 |
+| **DJS InfoMatrix** | AI/ML Menter | Aug 2026 – Present |
 
 </div>
 
 ---
 
-## 🌐 Connect
+## Connect
 
 <div align="center">
 
