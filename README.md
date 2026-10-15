@@ -79,7 +79,7 @@
 
 | Degree | Institution | Score |
 |---|---|---|
-| B.Tech – AI & Data Science | Dwarkadas J. Sanghvi College of Engineering | CGPA: **9.69 / 10** *(3rd Sem)* |
+| B.Tech – AI & Data Science | Dwarkadas J. Sanghvi College of Engineering | CGPA: **9.67 / 10** *(4th Sem)* |
 </div>
 
 <br/>
