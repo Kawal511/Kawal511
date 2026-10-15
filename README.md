@@ -1,7 +1,6 @@
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Kawaljeet%20Singh%20Bharaj&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=45&desc=AI%20Engineer%20%7C%20Frontend%20Developer%20%7C%20ML%20Researcher%20%7C%206x%20Hackathon%20Winner&descAlignY=65&descSize=17"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Kawaljeet%20Singh%20Bharaj&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=45&desc=AI%20Engineer%20%7C%20Frontend%20Developer%20%7C%20ML%20Researcher%20%7C%208x%20Hackathon%20Winner&descAlignY=65&descSize=17"/>
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&multiline=false&repeat=true&width=680&lines=Building+LLM-Powered+AI+Systems;RAG+Pipelines+%7C+AI+Agents+%7C+Agentic+Workflows;Deep+Learning+%7C+NLP+%7C+Computer+Vision;Turning+Research+Papers+into+Working+Products+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
@@ -65,12 +64,14 @@
 
 | &nbsp; | Event | Organizer |
 |:---:|---|---|
+| 🥈 Runner-Up | Code for Good 2026 | JPMorgan Chase & Co. |
 | 🥇 1st Prize | AI Automation Hackathon | KJSCE |
 | 🥇 1st Place – AI/ML Champions | HackNova 2026 | SSJCOE, Dombivli |
+| 🥇 1st Prize | Pareidolia Paradox ML Hackathon | IEEE SIES GST |
+| 🏆 GenAI Domain Winner | DataHack 4.0 | DJSCE |
 | 🥈 2nd Prize | CodeForge 2026 Hackathon | NMIMS MPSTME |
-| 🥈 2nd Place | Datazen Case Study Competition | Somaiya |
-| 🥈 2nd Place | Artemis UI/UX Hackathon | KJSCE |
-| GenAI Domain Winner | Datahack 4.0 | DJSCE |
+| 🥈 2nd Prize | Epoch 1.0 Hackathon | — |
+| 🥈 2nd Place | Datazen Business Intelligence Case Study | Somaiya |
 
 <br/>
 
@@ -93,52 +94,54 @@
 <tr>
 <td width="50%" valign="top">
 
-### NyayaZephyr
-**AI Legal Intelligence Platform**
+### [TrustLend](https://github.com/Kawal511/TrustLend)
+**Explainable Lending & Risk Platform**
 
-![LLM](https://img.shields.io/badge/LLM-RAG_Pipeline-7c3aed?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi)
-![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma)
+![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay)
 
-Multi-tenant AI platform for legal research & case management. Context-aware document retrieval, multilingual support, AI guardrails.
+Fintech platform for informal lending with a **deterministic risk engine** (6 weighted factors, 4 graded verdicts, 6 fraud typologies), Razorpay/UPI payments and auto-generated loan agreements. **263 test checks** enforce score reconciliation and instalment arithmetic.
 
 </td>
 <td width="50%" valign="top">
 
-### Multi-Modal Disease Prediction
-**Medical Deep Learning System**
+### [Drishti](https://drishti-console.drishti-console.workers.dev)
+**CCTV Exam Review System**
 
-![HRNet](https://img.shields.io/badge/HRNet+DenseNet-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189AB4?style=flat-square)
-![Ensemble](https://img.shields.io/badge/Ensemble_Pipeline-FF6F00?style=flat-square&logo=tensorflow)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Cloudflare](https://img.shields.io/badge/Workers_+_D1_+_R2-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
-Combines HRNet, DenseNet & XGBoost for image + metadata fusion. Feature-level ensemble diagnostic pipeline.
+**15-stage** video pipeline (D-FINE, AlphaPose, SAM 3 verification) with a review console deployed on **Cloudflare**. Pull-based GPU job queue, append-only audit trail, **593 people tracked**, **63 tests**. It flags moments for human review and never auto-judges.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### Kwest
-**AI Adaptive Learning Platform**
+### [NyayaZephyr](https://github.com/Kawal511/NyayaZephyr-LegalAI)
+**Legal Case Management Platform**
 
-![LangGraph](https://img.shields.io/badge/LangGraph-4A90D9?style=flat-square)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square)
-![RAG](https://img.shields.io/badge/Proposition_RAG-10A37F?style=flat-square)
+![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi)
+![JWT](https://img.shields.io/badge/JWT_Auth-000000?style=flat-square&logo=jsonwebtokens)
+![RAG](https://img.shields.io/badge/RAG-7c3aed?style=flat-square)
 
-Auto-generates flashcards, quizzes & summaries from study material. Proposition-Based RAG pipeline with LangGraph + ChromaDB.
+Full-stack legal platform with **database-per-tenant** isolation, JWT auth, immutable audit logs and **13 REST endpoints**. SBERT re-ranked legal research, prompt-injection guardrails, **10+ languages**.
 
 </td>
 <td width="50%" valign="top">
 
-### VEDAQ
-**AI Quantitative Trading Platform**
+### [Open-Pomelli](https://github.com/Kawal511/Open-Pomelli)
+**Multi-Agent Campaign Orchestrator**
 
-![Agentic System](https://img.shields.io/badge/Agentic-System-4285F4?style=flat-square&logo=google)
-![TypeScript](https://img.shields.io/badge/React+TypeScript-3178C6?style=flat-square&logo=typescript)
-![ML](https://img.shields.io/badge/ML_Backtesting-F7931E?style=flat-square)
+![LangGraph](https://img.shields.io/badge/LangGraph-4A90D9?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi)
+![React](https://img.shields.io/badge/React+Zustand-61DAFB?style=flat-square&logo=react&logoColor=black)
 
-Quant trading with ML model training, strategy backtesting, Gemini-powered insights, real-time portfolio risk tools.
+**11-agent LangGraph DAG** with 3-way parallel fan-out behind **12 FastAPI endpoints**. Per-node checkpoints for restart-safe runs, critic gate with before/after diffs, deterministic non-LLM scheduler, 3-channel dispatch.
 
 </td>
 </tr>
