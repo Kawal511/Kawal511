@@ -64,15 +64,15 @@
 
 | &nbsp; | Event | Organizer |
 |:---:|---|---|
-| 🥈 Runner-Up | Code for Good 2026 | JPMorgan Chase & Co. |
-| 🥇 1st Prize | AI Automation Hackathon | KJSCE |
-| 🥇 1st Place – AI/ML Champions | HackNova 2026 | SSJCOE, Dombivli |
-| 🥇 1st Prize | Pareidolia Paradox ML Hackathon | IEEE SIES GST |
-| 🏆 GenAI Domain Winner | DataHack 4.0 | DJSCE |
-| 🥈 2nd Prize | CodeForge 2026 Hackathon | NMIMS MPSTME |
-| 🥈 2nd Prize | Epoch 1.0 Hackathon | — |
-| 🥈 2nd Place | Datazen Business Intelligence Case Study | Somaiya |
-| 🥈 2nd Place | Artemis UI/UX Hackathon | KJSCE |
+| Runner-Up | Code for Good 2026 | JPMorgan Chase & Co. |
+| 1st Prize | AI Automation Hackathon | KJSCE |
+| 1st Place – AI/ML Champions | HackNova 2026 | SSJCOE, Dombivli |
+| 1st Prize | Pareidolia Paradox ML Hackathon | IEEE SIES GST |
+| GenAI Domain Winner | DataHack 4.0 | DJSCE |
+| 2nd Prize | CodeForge 2026 Hackathon | NMIMS MPSTME |
+| 2nd Prize | Epoch 1.0 Hackathon | — |
+| 2nd Place | Datazen Business Intelligence Case Study | Somaiya |
+| 2nd Place | Artemis UI/UX Hackathon | KJSCE |
 <br/>
 
 ### Education
