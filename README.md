@@ -72,7 +72,7 @@
 | 🥈 2nd Prize | CodeForge 2026 Hackathon | NMIMS MPSTME |
 | 🥈 2nd Prize | Epoch 1.0 Hackathon | — |
 | 🥈 2nd Place | Datazen Business Intelligence Case Study | Somaiya |
-
+| 🥈 2nd Place | Artemis UI/UX Hackathon | KJSCE |
 <br/>
 
 ### Education
